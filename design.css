@@ -1,0 +1,67 @@
+.outline {
+    border: 6px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.centerDot {
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: calc(50% - 10px);
+    top: calc(50% - 10px);
+}
+
+.hours {
+    border: 6px solid black;
+    height: 50px;
+    position: absolute;
+    left: calc(50% - 6px);
+    bottom: 50%;
+    border-radius: 6px;
+    transform-origin: 50% 100%;
+}
+
+.minutes {
+    border: 4px solid black;
+    height: 70px;
+    position: absolute;
+    bottom: 50%;
+    left: calc(50% - 4px);
+    border-radius: 4px;
+    transform-origin: 50% 100%;
+}
+
+.seconds {
+    border: 2px solid black;
+    height: 90px;
+    position: absolute;
+    left: calc(50% - 2px);
+    bottom: 50%;
+    border-radius: 2px;
+    transform-origin: 50% 100%;
+}
+
+.secondsIndicator {
+    height: 4px;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform-origin: 0 2500%;
+}
+
+.hoursIndicator {
+    height: 8px;
+    width: 4px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform-origin: 0 1250%;
+}
